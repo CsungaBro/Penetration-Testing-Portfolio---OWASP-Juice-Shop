@@ -27,7 +27,7 @@ Authorization: Bearer <valid_token>
     "role": "customer",
     "deluxeToken": "",
     "lastLoginIp": "",
-    "profileImage": "assets/public/images/uploads/default.svg",
+    "profileImage": "assets/public//images/uploads/default.svg",
     "isActive": true,
     "createdAt": "2025-08-10T14:20:03.249Z",
     "updatedAt": "2025-08-10T14:20:03.249Z",

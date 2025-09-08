@@ -28,7 +28,7 @@ Content-Type: application/json
 ### Example Outcome
 - The basket total becomes negative.  
 - The checkout completes, simulating a **payout to the attacker**.
-![[Pasted image 20250817101524.png]]
+![Pasted image 20250817101524](/images/Pasted%20image%2020250817101524.png)
 ---
 
 ## Impact

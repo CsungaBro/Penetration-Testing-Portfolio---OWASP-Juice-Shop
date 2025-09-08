@@ -10,7 +10,7 @@ The application stores user passwords hashed with **MD5** without any salting or
 
 ---
 ## Proof of Concept
-During testing, leaked or captured password hashes (e.g., from the SQLi vulnerability in [[1 - SQL Injection in Product Search]]) were confirmed to be in **MD5 format**.  
+During testing, leaked or captured password hashes (e.g., from the SQLi vulnerability in [1 - SQL Injection in Product Search](/Vulnerabilities/1%20-%20SQL%20Injection%20in%20Product%20Search.md)) were confirmed to be in **MD5 format**.  
 - Example: `827ccb0eea8a706c4c34a16891f84e7b` → `"12345"`  
 
 This demonstrates that common passwords can be cracked instantly using public wordlists like **rockyou.txt**.  

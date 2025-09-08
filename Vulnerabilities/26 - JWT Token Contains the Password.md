@@ -16,7 +16,7 @@ The **JWT token** issued after authentication contains sensitive information, in
     "email": "admin@juice-sh.op",
     "password": "0192023a7bbd73250516f069df18b500",
     "role": "admin",
-    "profileImage": "assets/public/images/uploads/defaultAdmin.png",
+    "profileImage": "assets/public//images/uploads/defaultAdmin.png",
     "isActive": true,
     "createdAt": "2025-09-08 11:11:06.691 +00:00",
     "updatedAt": "2025-09-08 11:11:06.691 +00:00"
@@ -30,7 +30,7 @@ The `password` field contains an **MD5 hash** of the admin user’s password.
 - **Credential exposure**: Password hashes are leaked directly through JWTs. With weak hashing (MD5, no salt), they can be cracked with tools like `hashcat` or `john the ripper`.  
 - **Chaining with XSS**: If an attacker can exfiltrate the JWT (e.g., via XSS), they automatically obtain the user’s password hash.  
 - **Privilege escalation**: If an admin JWT is stolen, the attacker gains both the active session and the admin’s hashed password.  
-- **Replay attacks**: JWTs remain valid even after logout, making this exposure more dangerous (see [[20 - JWT token is still valid after loging out]]).  
+- **Replay attacks**: JWTs remain valid even after logout, making this exposure more dangerous (see [20 - JWT token is still valid after loging out](20%20-%20JWT%20token%20is%20still%20valid%20after%20loging%20out)).  
 **Severity:** **High**
 
 ## Recommendations  

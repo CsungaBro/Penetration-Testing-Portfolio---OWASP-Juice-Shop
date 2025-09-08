@@ -1,3 +1,4 @@
+# 1 - SQL Injection in Product Search
 **Category:** A03 – Injection
 
 ---
@@ -86,7 +87,7 @@ LIMIT 1 OFFSET 0; --
 
 This hash is an MD5 Hash, and the unhashed password was found at https://crackstation.net/ 
 
-![[Pasted image 20250810150612.png]]
+![Pasted image 20250810150612](/images/Pasted%20image%2020250810150612.png)
 
 **Recovered credential (hash cracked):**
 ```

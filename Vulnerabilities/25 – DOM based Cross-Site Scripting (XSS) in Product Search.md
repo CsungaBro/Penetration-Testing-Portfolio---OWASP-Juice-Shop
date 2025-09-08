@@ -9,7 +9,7 @@ The **product search functionality** is vulnerable to **reflected Cross-Site Scr
 ```
 
 When this payload is submitted through the search field, it is executed by the browser, showing that JavaScript injection is possible.  
-![[Pasted image 20250907154833.png]]
+![Pasted image 20250907154833](/images/Pasted%20image%2020250907154833.png)
 ## Impact  
 - **Account compromise**: An attacker could steal session cookies or JWT tokens.  
 - **Phishing**: The attacker could craft malicious pop-ups or redirects to steal user credentials.  

@@ -34,7 +34,7 @@ ffuf -w /usr/share/wordlists/rockyou.txt \
 
 3. Observe multiple requests being processed without blocking or delays.  
 4. Successful credentials are returned in responses, confirming brute-force feasibility.  
-![[Pasted image 20250903133910.png]]
+![Pasted image 20250903133910](/images/Pasted%20image%2020250903133910.png)
 ---
 ## Recommendations  
 1. **Rate Limiting / Lockout:**  
