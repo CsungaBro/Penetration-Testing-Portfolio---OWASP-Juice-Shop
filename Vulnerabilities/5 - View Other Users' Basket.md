@@ -26,7 +26,7 @@ Accept: application/json, text/plain, */*
 ### Example Response
 - The server responds with basket data belonging to another user.  
 - No authorization checks are in place to verify ownership of the basket.
-![Pasted image 20250906124949](/images/Pasted%20image%2020250906124949.png)
+![Pasted image 20250906124949](Pasted%20image%2020250906124949.png)
 ---
 ## Impact
 - **Confidentiality breach:** Attackers can view the shopping cart contents of any user.  

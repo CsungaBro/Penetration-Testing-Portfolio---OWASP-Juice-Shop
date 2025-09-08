@@ -14,11 +14,11 @@ This behavior indicates improper input handling and a potential injection point.
 '"%$
 ```
 
-![Pasted image 20250815051613](/images/Pasted%20image%2020250815051613.png)
+![Pasted image 20250815051613](Pasted%20image%2020250815051613.png)
 ### Observed Behavior
 - The server returns a **500 Internal Server Error**.
 - This indicates that user input is not properly sanitized before being processed by the server.
-![Pasted image 20250815051736](/images/Pasted%20image%2020250815051736.png)
+![Pasted image 20250815051736](Pasted%20image%2020250815051736.png)
 
 ---
 

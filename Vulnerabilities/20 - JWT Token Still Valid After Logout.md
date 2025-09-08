@@ -20,10 +20,10 @@ This indicates that the server does not implement **server-side token invalidati
 1. Log in as a valid user and intercept the JWT token.  
 2. Perform a logout request.  
 3. Send an authenticated request using the **old JWT token** (e.g., `GET /api/Users/profile`).  
-![Pasted image 20250903090400](/images/Pasted%20image%2020250903090400.png)
+![Pasted image 20250903090400](Pasted%20image%2020250903090400.png)
 4. Observe that the request still succeeds, proving logout does not invalidate the token.  
-![Pasted image 20250903090423](/images/Pasted%20image%2020250903090423.png)
-![Pasted image 20250903090429](/images/Pasted%20image%2020250903090429.png)
+![Pasted image 20250903090423](Pasted%20image%2020250903090423.png)
+![Pasted image 20250903090429](Pasted%20image%2020250903090429.png)
 ---
 ## Recommendations  
 1. **Implement Token Blacklisting:**  

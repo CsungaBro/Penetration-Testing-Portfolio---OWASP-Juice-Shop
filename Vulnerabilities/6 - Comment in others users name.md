@@ -27,7 +27,7 @@ Content-Type: application/json
 
 ### Example Outcome
 - The comment appears publicly as if written by **admin@juice-sh.op**, although it was submitted by another user.  
-![Pasted image 20250811161447](/images/Pasted%20image%2020250811161447.png)
+![Pasted image 20250811161447](Pasted%20image%2020250811161447.png)
 ---
 ## Impact
 - **Identity spoofing:** Attackers can impersonate other users, including administrators.  
